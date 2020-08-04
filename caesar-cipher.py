@@ -29,5 +29,3 @@ def Brute_Force(msg):
             key += 1
         else:
             print("Wrong answer option. Try again...")
-
-Brute_Force(Encrypt("deneme",15))
