@@ -33,7 +33,7 @@ Programı Yapan: Mustafa Ozan Çetin
 
 Github: /mozancetin
 
-Reklam: goyomod.com
+Sponsor: https://goyomod.com/
 
 -----------------------------------------
 *************************************************************************************""")
@@ -62,7 +62,7 @@ Programı Yapan: Mustafa Ozan Çetin
 
 Github: /mozancetin
 
-Reklam: goyomod.com
+Sponsor: https://goyomod.com/
 
 -----------------------------------------
 *************************************************************************************""")
@@ -82,8 +82,7 @@ Mesajdan Numara Formuna Çeviri
         if secenek2 == "q":
             print(50*"\n")
             continue
-        
-        
+                
         elif int(secenek2) == 1:
             msg = pyperclip.paste()
             print("Mesajınız: '{}'".format(msg))
@@ -170,8 +169,5 @@ Numara Formundan Mesaja Çeviri
             num = None
             input("\nDevam etmek için enter'a basın.")
             
-
-
-
 
     print(50*"\n")
