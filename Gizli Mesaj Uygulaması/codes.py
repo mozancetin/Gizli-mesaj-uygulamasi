@@ -10,9 +10,7 @@ def msgToNum(msg):
     sıfır = [" "]
 
     mesaj = ""
-    
-    
-    
+        
     for i in msg:
         if i in iki:
             kd = int(iki.index(i)+1)
@@ -143,6 +141,3 @@ def numToMsg(num):
 
 #print(msgToNum("deneme bir iki üç"))
 #print(numToMsg(msgToNum("deneme bir iki üç")))
-
-
-
