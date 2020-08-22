@@ -6,7 +6,6 @@ def Encrypt(msg, key):
         encryption += chr(int(ord(i)) + int(key))
     return encryption
 
-
 def Decrypt(msg, key):
 
     msg = str(msg)
@@ -14,7 +13,6 @@ def Decrypt(msg, key):
     for i in msg:
         decryption += chr(int(ord(i)) - int(key))
     return decryption
-
         
 def Brute_Force(msg):
     key = 0
