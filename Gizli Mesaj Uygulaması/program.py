@@ -1,4 +1,4 @@
-from çevirici import *
+from codes import *
 import pyperclip
 while(True):
     print("""*********************************************************
