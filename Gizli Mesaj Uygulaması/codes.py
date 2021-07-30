@@ -75,7 +75,6 @@ def numToMsg(num):
             if i == ilk:
                 kd += 1
             else:
-                #print(kd,"Sayı:",ilk)
                 
                 if ilk == "0":
                     yazı += " "
@@ -106,9 +105,6 @@ def numToMsg(num):
                 
                 ilk = i
                 kd = 1
-                
-    
-    #print(kd,"Sayı:",ilk)
 
     if ilk == "-":
         yazı += " "
