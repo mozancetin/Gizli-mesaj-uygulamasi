@@ -134,6 +134,3 @@ def numToMsg(num):
         yazı += dokuz[kd-1]
 
     return yazı
-
-#print(msgToNum("deneme bir iki üç"))
-#print(numToMsg(msgToNum("deneme bir iki üç")))
